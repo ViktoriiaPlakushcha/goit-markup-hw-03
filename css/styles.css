@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+button {
+    cursor: pointer;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-part-nav {
+    color: #2E2F42;
+}
+.page-nav .link {
+    color: #2E2F42;
+    font-weight: 500;    
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #404BBF;
+}
+.page-nav .link:active {
+    color: #404BBF;
+    text-decoration: underline;
+}
+.contacts {
+    font-style: normal;
+}
+.contacts .link {
+    color: #434455;
+}
+.contacts .link.link:hover,
+.contacts .link.link:focus {
+    color: #404BBF;
+}
+.hero {
+    background-color: #2E2F42;
+}
+.hero .page-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hero .order-btn {
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+}
+.hero .order-btn:hover,
+.hero .order-btn:focus {
+    background-color: #404BBF;
+}
+.benefits-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-list-item {
+    background-color: #FFFFFF;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    text-transform: capitalize;
+}
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+.list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.page-ftr {
+    background-color: #2E2F42;
+}
+.page-ftr-text {
+    color: #f4f4fd;
+}
+.logo-part-ftr {
+    color: #F4F4FD;
+}
