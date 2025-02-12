@@ -23,6 +23,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+}
 button {
     cursor: pointer;
 }
@@ -115,6 +118,10 @@ main {
 .contacts .link.link:focus {
     color: #404BBF;
 }
+.hero-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 
 .hero {
     background-color: #2E2F42;
@@ -126,6 +133,11 @@ main {
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    display: block;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 .hero .order-btn {
     font-weight: 500;
@@ -134,6 +146,12 @@ main {
     letter-spacing: 0.04em;
     line-height: 1.5;
     margin-top: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     }
 .hero .order-btn:hover,
 .hero .order-btn:focus {
@@ -199,6 +217,22 @@ main {
     text-align: center;
     color: #434455;
 }
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .protfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -209,17 +243,28 @@ main {
     width: calc((100% - 48) / 3);
 }
 .portfolio-list-box {
-border: 1px solid #e7e9fc;
+border-bottom: 1px solid #E7E9FC;
+border-left: 1px solid #E7E9FC;
+border-right: 1px solid #E7E9FC;
+padding: 32px 16px;
 }
 .page-ftr {
     background-color: #2E2F42;
 }
 .page-ftr-text {
     color: #f4f4fd;
+    max-width: 264px;
+    padding-bottom: 100px;
 }
 .logo-part-ftr {
     color: #F4F4FD;
 }
+.logo-ftr {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding-top: 100px;
+}
+
 .container {
     max-width: 1158px;
     padding-left: 15px;
